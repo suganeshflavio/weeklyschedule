@@ -1,0 +1,58 @@
+.weekly-schedule {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.navigation {
+  margin-bottom: 10px;
+  display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timezone-select {
+  margin-bottom: 10px;
+}
+
+.timezone-select select{
+  width: -webkit-fill-available;
+  height: 40px;
+}
+
+.date,
+.schedule {
+  margin-bottom: 10px;
+}
+
+.day-column {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.time-slot {
+  margin-bottom: 5px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.time {
+  font-size: 14px;
+}
